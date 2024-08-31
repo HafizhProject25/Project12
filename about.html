@@ -9,6 +9,7 @@
 f90068558c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <header>
@@ -30,7 +31,7 @@ f90068558c.js"
               <h2 class="section-title">About We</h2>
               <p class="section-subtitle">My Introduction</p>
               <div class="about-image">
-                <img class="blob-image" src="../PROJECT/assets/Poster id.png" alt="Blob Image" />
+                <img class="blob-image" src="./assets/Poster id.png" alt="Blob Image" />
               </div>
               <div class="about-description">
                 <p>
@@ -86,12 +87,12 @@ f90068558c.js"
       <div class="main-footer">
         <h3 class="info-top">Review Game</h3>
         <div class="social-media">
-          <i class="fab fa-instagram-square"></i>
-          <p class="Sosmed"> ReviewGameOfficial</p>
-          <i class="fab fa-facebook-square"></i>
-          <p class="Sosmed"> ReviewGAmeOFFICIAL</p>
-          <i class="fas fa-envelope"></i>
-          <p class="Sosmed"> ReviewGameOfficial@gmail.com</p>
+          <i data-feather="instagram"></i>
+          <marquee width="200px" direction="left" scrollamount="10px" class="Sosmed"> ReviewGameOfficial</marquee>
+          <i data-feather="twitter"></i>
+          <marquee width="200px" direction="left" scrollamount="10px" class="Sosmed"> ReviewGAmeOFFICIAL</marquee>
+          <i data-feather="mail"></i>
+          <marquee width="200px" direction="left" scrollamount="10px" class="Sosmed"> ReviewGameOfficial@gmail.com</marquee>
         </div>
         <p class="info-center">
           Copyright &copy; 2021. Cobee. All rights reserved.
@@ -100,4 +101,7 @@ f90068558c.js"
     </footer>
   </body>
   <script src="main.js"></script>
+  <script>
+    feather.replace();
+  </script>
 </html>
