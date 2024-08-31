@@ -46,7 +46,7 @@ if (btnSubmit) {
     // console.log(next);
     next.setAttribute(
       "value",
-      "https://gamereviewss.netlify.app/contact.html"
+      "https://gamereviewss.vercel.app/contact.html"
     );
   });
 }
