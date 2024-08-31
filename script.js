@@ -38,3 +38,15 @@ function dislikeColor() {
 
   this.classList.toggle("red");
 }
+var btnSubmit = document.querySelector(".submit");
+
+if (btnSubmit) {
+  btnSubmit.addEventListener("click", function () {
+    const next = document.querySelector(".next");
+    // console.log(next);
+    next.setAttribute(
+      "value",
+      "https://gamereviewss.netlify.app/contact.html"
+    );
+  });
+}
