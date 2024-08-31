@@ -19,7 +19,7 @@ main {
   padding: 20px;
   /* background-color: white; */
   text-align: center;
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(75, 177, 218);
 }
 
 .wave1 {
@@ -79,7 +79,7 @@ main {
 }
 
 button {
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(75, 177, 218);
   border-style: none;
   /* outline: ; */
 }
@@ -121,7 +121,7 @@ button:hover {
   right: 0;
   /* bottom: 0; */
   height: 60px;
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(12, 76, 102);
   /* add s-index after adding slider to see the difference*/
   z-index: 100;
   /* box-shadow: 0px 0px 50px gainsboro; */
@@ -148,8 +148,14 @@ nav {
   margin: 14px 30px 0px;
 }
 
+nav a {
+  border:2px solid rgb(33, 122, 224);
+  border-radius: 20px;
+  background-color: rgb(0, 102, 255);
+}
+
 a {
-  color: rgb(244, 162, 97);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px;
   font-weight: bold;
@@ -172,7 +178,7 @@ aside {
   font-family: "Caveat", cursive;
   font-size: 25px;
   /* border-bottom: 5px solid slateblue; */
-  border-top: 5px solid rgb(38, 70, 83);
+  border-top: 5px solid rgb(75, 177, 218);
   border-radius: 5px;
 }
 
@@ -267,7 +273,7 @@ iframe {
 
 /* ---------------------------------- Footer ---------------------------------- */
 footer {
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(75, 177, 218);
 }
 
 .center-footer {
@@ -322,6 +328,9 @@ footer {
 .social-media {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: rows;
+  gap: 10px;
 }
 
 .fa-instagram-square,
@@ -372,7 +381,7 @@ input {
   width: 70%;
   border: none;
   background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(38, 70, 83);
+  border: 2px solid rgb(75, 177, 218);
   height: 40px;
   margin: 0;
   padding: 5px;
@@ -382,7 +391,7 @@ input {
   /* height: 30px; */
   width: 30%;
   padding: 6px;
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(75, 177, 218);
   margin: 0;
   cursor: pointer;
   color: snow;
@@ -400,7 +409,7 @@ input {
 .search-tags-item {
   margin: 5px;
   padding: 10px;
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(75, 177, 218);
   color: snow;
   text-align: left;
 }
@@ -516,7 +525,7 @@ input {
   border-style: none;
   border-radius: 25px;
   color: aliceblue;
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(75, 177, 218);
   margin: 5px;
   cursor: pointer;
 }
@@ -669,7 +678,7 @@ input {
 }
 
 .slider-btn.active {
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(75, 177, 218);
 }
 
 .wave1 {
@@ -999,3 +1008,24 @@ p.project-link {
   text-align: center;
   color: whitesmoke;
 }
+
+.input-item:not(:placeholder-shown).input-item:not(:focus) + .form-label {
+  top: -2px;
+  left: -2px;
+  font-size: 10px;
+  color: rgb(138, 130, 130);
+}
+
+.textarea:not(:placeholder-shown).textarea:not(:focus) + .form-label {
+  top: -2px;
+  left: -2px;
+  font-size: 10px;
+  color: rgb(138, 130, 130);
+} 
+marquee{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
